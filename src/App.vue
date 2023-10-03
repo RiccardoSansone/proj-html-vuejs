@@ -172,9 +172,9 @@ import './assets/scss/style.scss'
     <!-- all organic -->
     <section class="allOrganic">
         <!-- container -->
-        <div class="containerOrg column gap-1 justify-center align-center">
+        <div class="containerOrg column justify-center align-center">
             <!-- titles -->
-            <div class="text-center column gap-05">
+            <div class="text-center column gap-05 mt-3">
                 <h4 class="color-secondary">
                     Trending Online Store
                 </h4>
@@ -185,7 +185,7 @@ import './assets/scss/style.scss'
                 <h1 class="color-white">GOGRIN ALL <span class="color-secondary">ORGANIC</span> FOOD</h1>
             </div>
             <!-- row -->
-            <div class="d-flex gap-2 mt-3">
+            <div class="d-flex gap-2 mt-2">
                 <a href="#">All Product</a>
                 <a href="#">Apple</a>
                 <a href="#">Food</a>
@@ -193,7 +193,74 @@ import './assets/scss/style.scss'
                 <a href="#">Vegetable</a>
             </div>
             <!-- wrapper -->
-            
+            <div class="containerWrap d-flex wrap">
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+                <!-- card -->
+                <div class="card column gap-1">
+                    <div class="imgTop">
+                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                    </div>
+                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h6 class="color-secondary text-center">$18</h6>
+                </div>
+            </div>
+            <!-- /wrapper -->
+            <button style="width: 150px; margin-bottom: 4rem;" class="btn bg-secondary">ALL PRODUCTS</button>
         </div>
     </section>
     <!-- /all organic -->
