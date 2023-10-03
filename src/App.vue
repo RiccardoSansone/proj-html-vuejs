@@ -266,6 +266,38 @@ import './assets/scss/style.scss'
     <!-- /all organic -->
     <!-- /////////////// -->
 
+    <!-- dessert -->
+    <section class="dessert">
+        <!-- container -->
+        <div class="container-sm column align-center gap-1">
+            <img src="./assets/img/testi-icon.png" alt="">
+            <p class="text-center">
+                "Dessert pudding dessert jelly beans cupcake sweet caramels
+                gingerbread. Fruit biscuit cheesecake. Cookie topping sweets
+                muffine pudding tart bear claw sugar plum croissant.". We 
+                started as a small legal consultancy. We have proved our 
+                competence and had many satisfied clients.
+            </p>
+            <h3 class="text-center">Martha Alex</h3>
+            <h5 class="color-secondary">Manager</h5>
+        </div>
+        <!-- container img -->
+        <div class="container-md d-flex gap-1 justify-center">
+            <div class="off">
+                <img src="./assets/img/offer-img01.jpg" alt="">
+                <h2 class="pos-top">Fresh guarden tomato<br>combo offer...$37</h2>
+                <h4 class="shop-now">SHOP NOW</h4>
+            </div>
+            <div class="off">
+                <img src="./assets/img/offer-img02.jpg" alt="">
+                <h2 class="pos-top">Some organic healty fruits<br>combo offer...$49</h2>
+                <h4 class="shop-now">SHOP NOW</h4>
+            </div>
+        </div>
+    </section>
+    <!-- /dessert -->
+    <!-- /////////////// -->
+
 </main>
 <!-- /main -->
 <!-- /////////////// -->

@@ -117,6 +117,9 @@
 .col-50{
   width: calc(50% - 1rem);
 }
+.line-height{
+  line-height: 30px;
+}
 // #endregion tools
 // <-//////////////->
 
@@ -343,6 +346,59 @@
 }
 // #endregion all organic
 // <-///////////->
+
+// #region dessert
+.dessert{
+  .container-sm{
+    width: 50%;
+    margin: auto;
+    img{
+      width: 50px;
+      filter: invert(#007166);
+    }
+    p{
+      line-height: 30px;
+      font-weight: 500;
+    }
+    h3{
+      font-weight: bold;
+    }
+    h5{
+      font-size: smaller;
+      font-weight: 900;
+    }
+  }
+  .container-md{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    .off{
+      position: relative;
+      img{
+        width: 400px;
+      }
+      .pos-top{
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+        color: white;
+      }
+      .shop-now{
+        position: absolute;
+        bottom: 1.5rem;
+        left: 1.5rem;
+        color: white;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+// #endregion dessert
+// <-///////////->
+
+
+
+
 
 // #endregion main
 // <-//////////////->
