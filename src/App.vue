@@ -95,6 +95,80 @@ import './assets/scss/style.scss'
 
 <!-- main -->
 <main>
+
+    <!-- jumbotron -->
+    <section class="jumbotron">
+
+        <!-- chevron -->
+        <div class="leftRow">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <!-- chevron -->
+        <div class="rightRow">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <!-- container -->
+        <div class="jumboContainer column gap-1 justify-center align-center">
+            <h5>GOGRIN ORGANIC FOOD STORE</h5>
+            <h1 class="text-center">Eating naturally & organic is always be healty.</h1>
+            <!-- buttons -->
+            <div class="d-flex gap-05">
+                <button class="btn bg-secondary">ABOUT US</button>
+                <button class="btn bg-primary">OUR HISTORY</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- /jumbotron -->
+    <!-- /////////////// -->
+
+
+    <!-- all natural -->
+    <section class="allNatural">
+        <!-- container -->
+        <div class="natContainer column gap-1">
+            <!-- row -->
+            <div class="d-flex">
+                <!-- col left -->
+                <div class="column col-50">
+                    <h2>
+                        <span class="color-secondary">Look what </span>
+                        <span class="color-primary">consumer power has done with </span>
+                        <span class="color-secondary">organic food; </span>
+                        <span class="color-primary">we can do the same with clothes. </span>
+                    </h2>
+                </div>
+                <!-- col right -->
+                <div class="column gap-1 col-50">
+                    <p>
+                        I have a need to make sorts of connection literal sometimes,
+                        and a veihcle often helps to do that. I have a relationship
+                        to hosting culture. <span class="color-secondary"> It isn't really about it helps
+                            to do that. I have a relationship to hosting culture.</span>
+                    </p>
+
+                    <p>
+                        Need to make these sorts of connections literal sometimes,
+                        and a veihcle often helps to do that. I have a relationship
+                        to hosting culture.
+                    </p>
+                </div>
+            </div>
+            <!-- row -->
+            <div class="d-flex wrapper gap-1">
+                <img src="./assets/img/fe3.jpg" alt="">
+                <img src="./assets/img/fe1.jpg" alt="">
+                <img src="./assets/img/fe2.jpg" alt="">
+                <img src="./assets/img/fe1.jpg" alt="">
+            </div>
+
+            <img class="stamp" src="./assets/img/fe-shap1-1.png" alt="">
+        </div>
+    </section>
+    <!-- /all natural -->
+    <!-- /////////////// -->
+
+
 </main>
 <!-- /main -->
 <!-- /////////////// -->
