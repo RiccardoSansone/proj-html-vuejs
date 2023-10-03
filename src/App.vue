@@ -169,6 +169,36 @@ import './assets/scss/style.scss'
     <!-- /////////////// -->
 
 
+    <!-- all organic -->
+    <section class="allOrganic">
+        <!-- container -->
+        <div class="containerOrg column gap-1 justify-center align-center">
+            <!-- titles -->
+            <div class="text-center column gap-05">
+                <h4 class="color-secondary">
+                    Trending Online Store
+                </h4>
+                <h1 class="color-white">GOGRIN ALL <span class="color-secondary">ORGANIC</span> FOOD</h1>
+                <h4 class="color-secondary">
+                    Trending Online Store
+                </h4>
+                <h1 class="color-white">GOGRIN ALL <span class="color-secondary">ORGANIC</span> FOOD</h1>
+            </div>
+            <!-- row -->
+            <div class="d-flex gap-2 mt-3">
+                <a href="#">All Product</a>
+                <a href="#">Apple</a>
+                <a href="#">Food</a>
+                <a href="#">Orange</a>
+                <a href="#">Vegetable</a>
+            </div>
+            <!-- wrapper -->
+            
+        </div>
+    </section>
+    <!-- /all organic -->
+    <!-- /////////////// -->
+
 </main>
 <!-- /main -->
 <!-- /////////////// -->
