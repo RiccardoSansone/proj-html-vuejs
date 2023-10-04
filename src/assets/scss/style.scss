@@ -47,6 +47,9 @@
   display: flex;
   flex-direction: column;
 }
+.gap-02{
+  gap: 0.2rem;
+}
 .gap-05{
   gap: 0.5rem;
 }
@@ -119,6 +122,9 @@
 }
 .line-height{
   line-height: 30px;
+}
+.line-height-01{
+  line-height: 22px;
 }
 // #endregion tools
 // <-//////////////->
@@ -507,6 +513,48 @@
 // #endregion best organic
 // <-///////////->
 
+// #region gogrin
+.gogrin{
+  width: 60%;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  .gogr{
+    position: relative;
+    z-index: 1;
+    img{
+      height: 100px;
+      position: absolute;
+      top: -3rem;
+      left: 43%;
+    }
+  }
+  .gogrCards{
+    margin-top: 2rem;
+    .goCard{
+      width: 250px;
+      img{
+        width: 250px;
+        height: 150px;
+      }
+      i{
+        font-size: small;
+      }
+      span{
+        font-size: small;
+        color: gray;
+      }
+      p{
+        color: gray;
+      }
+      small{
+        font-weight: bold;
+      }
+    }
+  }
+}
+// #endregion gogrin
+// <-//////////////->
 
 
 

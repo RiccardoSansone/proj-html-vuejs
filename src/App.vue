@@ -440,6 +440,114 @@ import './assets/scss/style.scss'
 
 
 
+    <!-- gogrin -->
+    <section class="gogrin">
+        <!-- title -->
+        <div class="gogr column gap-05 align-center">
+            <h5 class="color-secondary">The news whatwe have</h5>
+            <h2 class="color-primary">GOGRIN LATEST <span class="color-secondary">NEWS</span> FEED</h2>
+            <img src="./assets/img/title-shap.png" alt="">
+        </div>
+        <!-- cards -->
+        <div class="gogrCards d-flex justify-center gap-1">
+
+            <!-- card -->
+            <div class="goCard column gap-1">
+                <!-- img -->
+                <img src="./assets/img/blo1-390x250.jpg" alt="">
+                <!-- user and date -->
+                <div class="d-flex gap-1">
+                    <!-- user -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-solid fa-user color-secondary"></i>
+                        <span>Gogrin</span>
+                    </div>
+                    <!-- date -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-regular fa-clock color-secondary"></i>
+                        <span>17 Dec 2022</span>
+                    </div>
+                </div>
+                <!-- description -->
+                <h4 class="color-primary">
+                    Where I live, I am surrounded by fresh,
+                    organic food, so I eat really well.
+                </h4>
+                <p class="line-height-01">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita, delectus corporis laborum nemo excepturi.
+                </p>
+                <small class="color-primary">
+                    READ MORE...
+                </small>
+            </div>
+
+            <!-- card -->
+            <div class="goCard column gap-1">
+                <!-- img -->
+                <img src="./assets/img/blo2-390x250.jpg" alt="">
+                <!-- user and date -->
+                <div class="d-flex gap-1">
+                    <!-- user -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-solid fa-user color-secondary"></i>
+                        <span>Gogrin</span>
+                    </div>
+                    <!-- date -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-regular fa-clock color-secondary"></i>
+                        <span>16 Dec 2022</span>
+                    </div>
+                </div>
+                <!-- description -->
+                <h4 class="color-primary">
+                    What we get at home is 100% organic food. We are also 90% vegetarian.
+                </h4>
+                <p class="line-height-01">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita, delectus corporis laborum nemo excepturi.
+                </p>
+                <small class="color-primary">
+                    READ MORE...
+                </small>
+            </div>
+
+            <!-- card -->
+            <div class="goCard column gap-1">
+                <!-- img -->
+                <img src="./assets/img/blo3-390x250.jpg" alt="">
+                <!-- user and date -->
+                <div class="d-flex gap-1">
+                    <!-- user -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-solid fa-user color-secondary"></i>
+                        <span>Gogrin</span>
+                    </div>
+                    <!-- date -->
+                    <div class="d-flex gap-02 align-center">
+                        <i class="fa-regular fa-clock color-secondary"></i>
+                        <span>15 Dec 2022</span>
+                    </div>
+                </div>
+                <!-- description -->
+                <h4 class="color-primary">
+                    If we as a society are willing to have a preference for organic 
+                    food farmer
+                </h4>
+                <p class="line-height-01">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita, delectus corporis laborum nemo excepturi.
+                </p>
+                <small class="color-primary">
+                    READ MORE...
+                </small>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /gogrin -->
+    <!-- /////////////// -->
+
+
+
 </main>
 <!-- /main -->
 <!-- /////////////// -->
