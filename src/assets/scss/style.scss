@@ -271,6 +271,18 @@
     width: 50%;
     margin: auto;
     padding-top: 14%;
+    .hoverBtn-1{
+      &:hover{
+        background-color: var(--gogreen-primary);
+        color: white;
+      }
+    }
+    .hoverBtn-2{
+      &:hover{
+        background-color: var(--gogreen-secondary);
+        color: white;
+      }
+    }
     h1{
       font-size: xx-large;
       font-weight: bold;
@@ -536,6 +548,9 @@
       img{
         width: 250px;
         height: 150px;
+        &:hover{
+          filter: opacity(0.6) drop-shadow(0 0 0 black);
+        }
       }
       i{
         font-size: small;
@@ -578,6 +593,7 @@
 
 // #region footer top
 .footerTop{
+  margin-top: 12rem;
   width: 100%;
   height: 400px;
   background-image: url(../img/footer-bg.jpg);
@@ -598,6 +614,9 @@
           aspect-ratio: 1;
           border-radius: 5px;
           background-color: var(--gogreen-primary);
+          &:hover{
+            background-color: var(--gogreen-secondary);
+          }
           i{
             color: white;
           }
@@ -636,6 +655,25 @@
           width: 50px;
         }
       }
+    }
+  }
+  .subscribe{
+    width: 70%;
+    height: 100px;
+    background-image: url(../img/counter-bg.jpg);
+    position: absolute;
+    top: -3rem;
+    left: 15%;
+    input{
+      width: 250px;
+      padding: 0.6rem 0.8rem;
+      font-size: x-small;
+      border: none;
+    }
+    button{
+      width: 80px;
+      border: none;
+      font-size: x-small;
     }
   }
 } 

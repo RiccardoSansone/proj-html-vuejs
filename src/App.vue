@@ -114,8 +114,8 @@ import './assets/scss/style.scss'
             <h1 class="text-center">Eating naturally & organic is always be healty.</h1>
             <!-- buttons -->
             <div class="d-flex gap-05">
-                <button class="btn bg-secondary">ABOUT US</button>
-                <button class="btn bg-primary">OUR HISTORY</button>
+                <button class="btn bg-secondary hoverBtn-1">ABOUT US</button>
+                <button class="btn bg-primary hoverBtn-2">OUR HISTORY</button>
             </div>
         </div>
 
@@ -657,8 +657,21 @@ import './assets/scss/style.scss'
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- /container -->
+        
+        <!-- input email -->
+        <div class="subscribe d-flex align-center justify-around">
+
+            <h2 class="color-white">SUBSCRIBE OUR NEWSLETTER</h2>
+
+            <div class="d-flex">
+                 <input type="text" placeholder="your email">
+                 <button class="bg-primary color-white">SEND</button>
+            </div>
+        </div>
+
     </section>
 
 </footer>
