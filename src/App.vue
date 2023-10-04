@@ -364,16 +364,55 @@ import './assets/scss/style.scss'
 
     <!-- trending -->
     <section class="trending">
+        <!-- title -->
         <div class="trend column gap-05 align-center">
             <h5 class="color-secondary">Running week to selling</h5>
             <h2 class="color-primary">TOP <span class="color-secondary">TRENDING</span> ORGANIC FOOD</h2>
             <img src="./assets/img/title-shap.png" alt="">
         </div>
+        <!-- card container -->
+        <div class="trendContainer d-flex gap-1 justify-center">
+            <!-- card -->
+            <div class="trendCard column gap-05 align-center">
+                <img src="./assets/img/s5-150x150.jpg" alt="">
+                <h5>Fresh Apple</h5>
+                <small>$18</small>
+            </div>
+            <!-- card -->
+            <div class="trendCard column gap-05 align-center">
+                <img src="./assets/img/s2-150x150.jpg" alt="">
+                <h5>Fresh Cobies</h5>
+                <small>$17</small>
+                <div class="offers bg-secondary d-flex align-center justify -center">
+                    SALE!
+                </div>  
+            </div>
+            <!-- card -->
+            <div class="trendCard column gap-05 align-center">
+                <img src="./assets/img/s8-150x150.jpg" alt="">
+                <h5>Fresh Watermelon</h5>
+                <small>$15</small>
+            </div>
+            <!-- card -->
+            <div class="trendCard column gap-05 align-center">
+                <img src="./assets/img/s1-150x150.jpg" alt="">
+                <h5>Organic Juice</h5>
+                <small>$15</small>
+                <div class="offers bg-secondary d-flex align-center justify -center">
+                    SALE!
+                </div>  
+            </div>
+
+        </div>
     </section>
     <!-- /trending -->
     <!-- /////////////// -->
 
+    <!-- best organic -->
+    <!-- /best organic -->
+    <!-- /////////////// -->
 
+    
 
 </main>
 <!-- /main -->
