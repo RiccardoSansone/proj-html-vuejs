@@ -336,6 +336,14 @@
       margin: auto;
       .imgTop{
         position: relative;
+        .offer{
+          position: absolute;
+          top: 5px;
+          right: 15px;
+          font-size: x-small;
+          padding: 0.2rem 0.3rem;
+        }
+
       }
       .card{
         width: calc(100% / 12 * 3);

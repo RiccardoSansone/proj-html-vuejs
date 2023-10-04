@@ -205,7 +205,12 @@ import './assets/scss/style.scss'
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
+
                         <img src="./assets/img/s2-150x150.jpg" alt="">
+                        <div class="offer bg-secondary d-flex align-center justify -center">
+                            SALE!
+                        </div>  
+
                     </div>
                     <h5 class="color-white text-center">Fresh Cobles</h5>
                     <h6 class="color-secondary text-center">$17</h6>
@@ -220,16 +225,26 @@ import './assets/scss/style.scss'
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
+
                     <div class="imgTop">
                         <img src="./assets/img/s1-150x150.jpg" alt="">
+                        <div class="offer bg-secondary d-flex align-center justify -center">
+                            SALE!
+                        </div>  
+
                     </div>
                     <h5 class="color-white text-center">Organic Juice</h5>
                     <h6 class="color-secondary text-center">$15</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
+
                     <div class="imgTop">
                         <img src="./assets/img/s4-150x150.jpg" alt="">
+                        <div class="offer bg-secondary d-flex align-center justify -center">
+                            SALE!
+                        </div>  
+
                     </div>
                     <h5 class="color-white text-center">Fresh Blueberries</h5>
                     <h6 class="color-secondary text-center">$14</h6>
@@ -245,7 +260,12 @@ import './assets/scss/style.scss'
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
+
                         <img src="./assets/img/s9-150x150.jpg" alt="">
+                        <div class="offer bg-secondary d-flex align-center justify -center">
+                            SALE!
+                        </div>  
+
                     </div>
                     <h5 class="color-white text-center">Red Gajor</h5>
                     <h6 class="color-secondary text-center">$26</h6>
