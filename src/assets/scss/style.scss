@@ -410,7 +410,7 @@
   height: 200px;
   margin: auto;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   background-image: url(../img/milesim-bg.jpg);
   .numbContainer{
     width: 90%;
@@ -434,6 +434,23 @@
 // #endregion data
 // <-///////////->
 
+// #region trending
+.trendig{
+  width: 60%;
+  margin: auto;
+  .trend{
+    position: relative;
+    z-index: 1;
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+  }
+}
+// #endregion trending
+// <-///////////->
 
 
 

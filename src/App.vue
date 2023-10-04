@@ -362,6 +362,18 @@ import './assets/scss/style.scss'
     <!-- /////////////// -->
 
 
+    <!-- trending -->
+    <section class="trending">
+        <div class="trend column gap-05 align-center">
+            <h5 class="color-secondary">Running week to selling</h5>
+            <h2 class="color-primary">TOP <span class="color-secondary">TRENDING</span> ORGANIC FOOD</h2>
+            <img src="./assets/img/title-shap.png" alt="">
+        </div>
+    </section>
+    <!-- /trending -->
+    <!-- /////////////// -->
+
+
 
 </main>
 <!-- /main -->
