@@ -548,6 +548,18 @@ import './assets/scss/style.scss'
 
 
 
+    <!-- farm logo -->
+    <section class="farmLogo d-flex justify-between">
+        <img src="./assets/img/brand1.png" alt="">
+        <img src="./assets/img/brand4.png" alt="">
+        <img src="./assets/img/brand1.png" alt="">
+        <img src="./assets/img/brand3.png" alt="">
+        <img src="./assets/img/brand2.png" alt="">
+    </section>
+    <!-- /farm logo -->
+    <!-- /////////////// -->
+
+
 </main>
 <!-- /main -->
 <!-- /////////////// -->
