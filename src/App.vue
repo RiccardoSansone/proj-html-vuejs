@@ -199,64 +199,64 @@ import './assets/scss/style.scss'
                     <div class="imgTop">
                         <img src="./assets/img/s5-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
+                    <h5 class="color-white text-center">Fresh Apple</h5>
                     <h6 class="color-secondary text-center">$18</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s2-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Fresh Cobles</h5>
+                    <h6 class="color-secondary text-center">$17</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s8-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Fresh Watermelon</h5>
+                    <h6 class="color-secondary text-center">$15</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s1-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Organic Juice</h5>
+                    <h6 class="color-secondary text-center">$15</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s4-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Fresh Blueberries</h5>
+                    <h6 class="color-secondary text-center">$14</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s10-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Organic Lactus</h5>
+                    <h6 class="color-secondary text-center">$23</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s9-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Red Gajor</h5>
+                    <h6 class="color-secondary text-center">$26</h6>
                 </div>
                 <!-- card -->
                 <div class="card column gap-1">
                     <div class="imgTop">
-                        <img src="./assets/img/s5-150x150.jpg" alt="">
+                        <img src="./assets/img/s7-150x150.jpg" alt="">
                     </div>
-                    <h5 class="color-white text-center">Fress Apple</h5>
-                    <h6 class="color-secondary text-center">$18</h6>
+                    <h5 class="color-white text-center">Naga Pepper</h5>
+                    <h6 class="color-secondary text-center">$21</h6>
                 </div>
             </div>
             <!-- /wrapper -->
