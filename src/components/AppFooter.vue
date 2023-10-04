@@ -1,11 +1,10 @@
 
 <script>
 import "../assets/scss/style.scss"
+import { state } from "../state";
 export default {
     name: 'AppFooter',
     data () {
-        
-
         return {
             state,
         }
@@ -13,9 +12,9 @@ export default {
 }
 </script>
 
+<!-- footer --> 
 <template>
     
-<!-- footer -->
 <footer>
 
 <!-- footer top -->
@@ -25,51 +24,46 @@ export default {
 
         <!-- first col -->
         <div class="col-logo column gap-1">
-            <img src="../assets/img/footer-logo.png" alt="">
-            <p class="line-height-01 color-white"> amet recusandae tempore atque? Blanditiis, sit?</p>
+            <img :src="'./src/assets/img/'+state.footer.col_1.image" alt="">
+            <p class="line-height-01 color-white">{{ state.footer.col_1.paragraph }}</p>
             <!-- social -->
             <div class="social d-flex gap-05">
-              <a class="cube d-flex align-center justify-center" href="#"><i class="fa-solid fa-glass-cheers"></i></a>
+              <a style="text-decoration: none;" v-for="icon in state.footer.col_1.icons"  class="cube d-flex align-center justify-center" href="#"><i :class="icon"></i></a>
             </div>
         </div>
 
         <!-- second col -->
         <div class="emergency column gap-1">
-            <h3 class="color-white">lorem</h3>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
+            <h3 class="color-white">{{ state.footer.col_2.title }}</h3>
+            <a v-for="item in state.footer.col_2.items" href="#">{{ item }}</a>
         </div>
 
         <!-- third col -->
         <div class="blog column gap-1">
             <h3 class="color-white">
-                lorem
+                {{ state.footer.col_3.title }}
             </h3>
             <!-- row -->
             <div class="d-flex gap-1">
                 <div>
-                     <img src="../assets/img/blo1-70x70.jpg" alt="">
+                     <img :src="state.footer.col_3.rows[0].image" alt="">
                 </div>
                 <div class="column gap-02">
-                    <p>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+                    <p>{{ state.footer.col_3.rows[0].paragraph }}</p>
                     <small>
-                        date 12 34 11
+                        {{ state.footer.col_3.rows[0].date }}
                     </small>
                 </div>
             </div>
             <!-- row -->
             <div class="d-flex gap-1">
                 <div>
-                     <img src="../assets/img/blo1-70x70.jpg" alt="">
+                     <img :src="state.footer.col_3.rows[1].image" alt="">
                 </div>
                 <div class="column gap-02">
-                    <p>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+                    <p>{{ state.footer.col_3.rows[1].paragraph }}</p>
                     <small>
-                        date 12 34 11
+                        {{ state.footer.col_3.rows[0].date }}
                     </small>
                 </div>
             </div>
@@ -78,32 +72,12 @@ export default {
 
         <!-- fourth col -->
         <div class="gallery column gap-2">
-            <h3 class="color-white">lorem</h3>
+            <h3 class="color-white">{{ state.footer.col_4.title }}</h3>
             <!-- container -->
             <div class="wrap-gallery d-flex wrap gap-05">
                 <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
-                </div>
-                <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
-                </div>
-                <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
-                </div>
-                <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
-                </div>
-                <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
-                </div>
-                <!-- img -->
-                <div class="img-gallery">
-                    <img src="../assets/img/blo1-70x70.jpg" alt="">
+                <div v-for="image in state.footer.col_4.images" class="img-gallery">
+                    <img :src="image" alt="">
                 </div>
             </div>
         </div>
@@ -130,11 +104,9 @@ export default {
 <section class="footerBottom">
     <!-- container -->
     <div class="bottomContainer d-flex align-center justify-between">
-        <small class="color-white">lorem lorem lorem</small>
+        <p class="color-white">{{ state.footer.green.copy }}</p>
         <div class="d-flex gap-2">
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
+            <a v-for="information in state.footer.green.info" href="#">{{ information }}</a>
         </div>
     </div>
 </section>
@@ -142,10 +114,10 @@ export default {
 <!-- /////////////// -->
 
 </footer>
-<!-- /footer -->
-<!-- /////////////// -->
 
 </template>
+<!-- /footer -->
+<!-- /////////////// -->
 
 
 <style>

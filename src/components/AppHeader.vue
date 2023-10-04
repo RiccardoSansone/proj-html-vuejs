@@ -1,12 +1,10 @@
 
 <script>
 import "../assets/scss/style.scss";
-import { state } from "../../state";
+import { state } from "../state";
 export default {
     name: 'AppHeader',
     data () {
-        
-
         return {
             state,
         }

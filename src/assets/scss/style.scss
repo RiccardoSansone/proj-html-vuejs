@@ -641,6 +641,9 @@
       }
       .social{
         .cube{
+          a{
+            text-decoration: none;
+          }
           width: 35px;
           aspect-ratio: 1;
           border-radius: 5px;
@@ -650,6 +653,7 @@
           }
           i{
             color: white;
+            text-decoration: none;
           }
         }
       }
