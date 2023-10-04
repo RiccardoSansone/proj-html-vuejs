@@ -59,11 +59,21 @@ import './assets/scss/style.scss'
             </div>
             <!-- central menu -->
             <div class="navMenu d-flex gap-05">
-                <p>f</p>
-                <p>f</p>
-                <p>ff</p>
-                <p>ff</p>
-                <p>fff</p>
+                <!-- single item -->
+                <div class="d-flex item align-center gap-02">
+                    <a class="color-menu" href="#">HOME</a>
+                    <i class="fa-solid fa-chevron-down color-menu"></i>
+                <!-- menu tendina -->
+                <div class="display-none display-block">
+                    <a href="#">HOME-1 <br></a>
+                    <a href="#">HOME-2 <br></a>
+                    <a href="#">HOME-3 <br></a>
+                    <a href="#">HOME-LANDING <br></a>
+                    <a href="#">HOME VIDEO</a>
+                </div>
+                <!-- /menu tendina -->
+                </div>
+
             </div>
             <!-- right menu -->
             <div class="cart d-flex gap-05 align-center">
@@ -568,6 +578,7 @@ import './assets/scss/style.scss'
 
 <!-- footer -->
 <footer>
+
     <!-- footer top -->
     <section class="footerTop">
         <!-- container -->
@@ -673,6 +684,23 @@ import './assets/scss/style.scss'
         </div>
 
     </section>
+    <!-- /footer top -->
+    <!-- /////////////// -->
+
+    <!-- footer bottom -->
+    <section class="footerBottom">
+        <!-- container -->
+        <div class="bottomContainer d-flex align-center justify-between">
+            <small class="color-white">lorem lorem lorem</small>
+            <div class="d-flex gap-2">
+                <a href="#">lorem</a>
+                <a href="#">lorem</a>
+                <a href="#">lorem</a>
+            </div>
+        </div>
+    </section>
+    <!-- /footer bottom -->
+    <!-- /////////////// -->
 
 </footer>
 <!-- /footer -->
