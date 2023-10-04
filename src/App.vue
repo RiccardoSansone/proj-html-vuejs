@@ -266,6 +266,7 @@ import './assets/scss/style.scss'
     <!-- /all organic -->
     <!-- /////////////// -->
 
+
     <!-- dessert -->
     <section class="dessert">
         <!-- container -->
@@ -297,6 +298,50 @@ import './assets/scss/style.scss'
     </section>
     <!-- /dessert -->
     <!-- /////////////// -->
+
+
+    <!-- data -->
+    <section class="data">
+        <!-- numbers container -->
+        <div class="numbContainer d-flex justify-center align-center gap-1">
+
+            <div class="col-n column gap-05 justify-center align-center">
+                <h1 class="color-secondary">29+</h1>
+                <h4 class="color-white">Years of Experienced</h4>
+            </div>
+
+            <img src="./assets/img/counter-shap1.png" alt="">
+
+            <div class="col-n column gap-05 justify-center align-center">
+                <h1 class="color-secondary">200+</h1>
+                <h4 class="color-white">Everyday online Delivery</h4>
+            </div>
+
+            <img src="./assets/img/counter-shap1.png" alt="">
+
+            <div class="col-n column gap-05 justify-center align-center">
+                <h1 class="color-secondary">20K</h1>
+                <h4 class="color-white">Client Satysfaction</h4>
+            </div>
+
+            <img src="./assets/img/counter-shap1.png" alt="">
+
+            <div class="col-n column gap-05 justify-center align-center">
+                <h1 class="color-secondary">30+</h1>
+                <h4 class="color-white">Award Winning</h4>
+            </div>
+
+
+
+
+
+            
+        </div>
+    </section>
+    <!-- /data -->
+    <!-- /////////////// -->
+
+
 
 </main>
 <!-- /main -->

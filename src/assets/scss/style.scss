@@ -396,6 +396,35 @@
 // #endregion dessert
 // <-///////////->
 
+// #region data
+.data{
+  width: 85%;
+  height: 200px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  background-image: url(../img/milesim-bg.jpg);
+  .numbContainer{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    .col-n{
+      width: 20%;
+      height: 100%;
+      h1{
+        font-size: 50px;
+      }
+      h4{
+        font-weight: 900;
+      }
+    }
+    img{
+      height: 120px;
+    }
+  }
+}
+// #endregion data
+// <-///////////->
 
 
 
