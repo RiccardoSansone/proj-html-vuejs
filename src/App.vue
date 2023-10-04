@@ -96,6 +96,7 @@ import './assets/scss/style.scss'
 <!-- main -->
 <main>
 
+
     <!-- jumbotron -->
     <section class="jumbotron">
 
@@ -121,6 +122,7 @@ import './assets/scss/style.scss'
     </section>
     <!-- /jumbotron -->
     <!-- /////////////// -->
+
 
 
     <!-- all natural -->
@@ -167,6 +169,7 @@ import './assets/scss/style.scss'
     </section>
     <!-- /all natural -->
     <!-- /////////////// -->
+
 
 
     <!-- all organic -->
@@ -287,6 +290,7 @@ import './assets/scss/style.scss'
     <!-- /////////////// -->
 
 
+
     <!-- dessert -->
     <section class="dessert">
         <!-- container -->
@@ -318,6 +322,7 @@ import './assets/scss/style.scss'
     </section>
     <!-- /dessert -->
     <!-- /////////////// -->
+
 
 
     <!-- data -->
@@ -360,6 +365,7 @@ import './assets/scss/style.scss'
     </section>
     <!-- /data -->
     <!-- /////////////// -->
+
 
 
     <!-- trending -->
@@ -408,11 +414,31 @@ import './assets/scss/style.scss'
     <!-- /trending -->
     <!-- /////////////// -->
 
+
+
     <!-- best organic -->
+    <section class="bestOrganic">
+        <!-- container -->
+        <div class="bestContainer column gap-1 align-center justify-center">
+            <!-- description -->
+            <h6>HERE YOU CAN GET 100% FRESH ORGANIC FOOD</h6>
+            <h1>Best organic food up to 25% off for all product</h1>
+            <p class="text-center">
+                The most beautiful people we have to know defeat, known struggle, know loss,
+                and have found their way out of those dephts. The most beautiful people
+                we have known are those who have known defeat, known suffering
+            </p>
+            <!-- buttons -->
+            <div class="bestButtons d-flex gap-1 justify-center">
+                <button class="bg-secondary"><i class="fa-brands fa-whatsapp"></i> +088123 56 906</button>
+                <button class="bg-primary">APOINMENT</button>
+            </div>
+        </div>
+    </section>
     <!-- /best organic -->
     <!-- /////////////// -->
 
-    
+
 
 </main>
 <!-- /main -->

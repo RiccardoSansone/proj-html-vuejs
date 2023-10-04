@@ -471,6 +471,39 @@
 // <-///////////->
 
 // #region best organic 
+.bestOrganic{
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  background-image: url(../img/call-to-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  .bestContainer{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: x-small;
+    }
+    .bestButtons{
+      margin-top: 2rem;
+      button{
+        border: none;
+        padding: 0.8rem 1rem;
+        border-radius: 5px;
+        font-size: small;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
 // #endregion best organic
 // <-///////////->
 
