@@ -3,7 +3,7 @@
 import "../assets/scss/style.scss"
 export default {
     name: 'AppMain',
-    setup () {
+    data () {
         
 
         return {}

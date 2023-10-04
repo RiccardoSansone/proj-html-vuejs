@@ -1,12 +1,15 @@
 
 <script>
-import "../assets/scss/style.scss"
+import "../assets/scss/style.scss";
+import { state } from "../../state";
 export default {
     name: 'AppHeader',
-    setup () {
+    data () {
         
 
-        return {}
+        return {
+            state,
+        }
     }
 }
 </script>
@@ -68,8 +71,8 @@ export default {
         <!-- central menu -->
         <div class="navMenu d-flex gap-05">
             <!-- single item -->
-            <div class="d-flex item align-center gap-02">
-                <a class="color-menu" href="#">HOME</a>
+            <div v-for="item in state.menu" class="d-flex item align-center gap-02">
+                <a class="color-menu" href="#">{{ item }}</a>
                 <i class="fa-solid fa-chevron-down color-menu"></i>
             <!-- menu tendina -->
             <div class="display-none display-block">

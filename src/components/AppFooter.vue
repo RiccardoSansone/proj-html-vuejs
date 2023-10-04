@@ -3,10 +3,12 @@
 import "../assets/scss/style.scss"
 export default {
     name: 'AppFooter',
-    setup () {
+    data () {
         
 
-        return {}
+        return {
+            state,
+        }
     }
 }
 </script>
